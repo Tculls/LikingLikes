@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    display: inline-block;
+}
+.nav{
+    background-color: black;
+    color: whitesmoke;
+    width: 1000px;
+    align-items: center;
+    font-size: 36px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textbox{
+    margin: 40px;
+    border: 2px solid black;
+    width: 400px;
+}
+h2{
+    margin: 20px;
+}
+p{
+    margin: 20px;
+}
+.user-likebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#username{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+#like{
+    background-color: yellow;
+    margin: 20px;
+    width: 60px;
+}
+#counter{
+    margin: 20px;
+}
+button{
+    box-shadow: 5px 5px 5px rgb(32, 30, 32);
+    border-radius: 6px;
+}
